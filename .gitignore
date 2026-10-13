@@ -1,0 +1,28 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Playwright artifacts
+playwright-report/
+test-results/
+blob-report/
+
+# Debug files
+debug/
+screenshots/
+*.tmp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
